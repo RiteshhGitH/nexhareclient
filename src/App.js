@@ -1,5 +1,12 @@
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import home from './images/home.png'
+import about from './images/about.jpg'
+import img1 from './images/portfolio1.jpg'
+import img2 from './images/portfolio2.jpg'
+import img3 from './images/portfolio3.jpg'
+import img4 from './images/portfolio4.jpg'
+import img5 from './images/portfolio5.jpg'
+import img6 from './images/portfolio6.jpg'
 import './style.css'
 import { ConnectWallet } from "@thirdweb-dev/react";
 import { ThirdwebNftMedia } from "@thirdweb-dev/react";
@@ -57,7 +64,7 @@ const App = () => {
     
     <section class="about" id="about">
         <div class="about-img">
-            <img src="images/about.png" />
+            <img src={about} />
         </div>
 
         <div class="about-content">
@@ -113,7 +120,7 @@ const App = () => {
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="images/portfolio1.jpg" />
+                <img src={img1} />
                 <div class="portfolio-layer">
                     <h4>NXY Towers</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
@@ -122,7 +129,7 @@ const App = () => {
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio2.jpg" />
+                <img src={img2}  />
                 <div class="portfolio-layer">
                     <h4>Vintage Cars</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
@@ -131,7 +138,7 @@ const App = () => {
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio3.jpg" />
+                <img src={img3}  />
                 <div class="portfolio-layer">
                     <h4>Art Sea</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
@@ -140,7 +147,7 @@ const App = () => {
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio4.jpg" />
+                <img src={img4}  />
                 <div class="portfolio-layer">
                     <h4>GX Estate</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
@@ -149,7 +156,7 @@ const App = () => {
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio5.jpg" />
+                <img src= {img5} />
                 <div class="portfolio-layer">
                     <h4>GM Chime</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
@@ -158,7 +165,7 @@ const App = () => {
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio6.jpg" />
+                <img src={img6}  />
                 <div class="portfolio-layer">
                     <h4>Jordan 1 OG</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
