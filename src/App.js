@@ -78,7 +78,7 @@ const App = () => {
                 <p>Our Web3 marketplace transcends geographical limitations, enabling users from all corners of the world
                 to participate in a global marketplace. Whether you're a collector in Tokyo, an investor in New York, or
                 an artist in Berlin, our platform opens doors to a vast network of opportunities.</p>
-            <a href="#" class="btn">Read More</a>
+            <a href="#" class="btn">Coming Soon !</a>
         </div>
     </section>
 
@@ -92,7 +92,7 @@ const App = () => {
                 <h3>Real Estate</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias impedit consectetur sequi minima
                     neque ullam, temporibus nostrum reprehenderit aperiam modi?</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">Coming Soon !</a>
             </div>
 
             <div class="services-box">
@@ -100,7 +100,7 @@ const App = () => {
                 <h3>Vintage Cars</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias impedit consectetur sequi minima
                     neque ullam, temporibus nostrum reprehenderit aperiam modi?</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">Coming Soon !</a>
             </div>
 
             <div class="services-box">
@@ -108,7 +108,7 @@ const App = () => {
                 <h3>High Valued Jewels</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias impedit consectetur sequi minima
                     neque ullam, temporibus nostrum reprehenderit aperiam modi?</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">Coming Soon !</a>
             </div>
 
         </div>
