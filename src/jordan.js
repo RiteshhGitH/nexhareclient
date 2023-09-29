@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from './images/about.jpg'
-
+import {Link} from "react-router-dom"
 const jordan = () => {
   const backbr = {
     position: 'absolute',
@@ -11,7 +11,8 @@ const jordan = () => {
   return (
     <section className="home" id="home">
       <div style={backbr}>
-      <a href="#" className="btn">Back</a>
+      {/* <a href="#" className="btn">Back</a> */}
+        <Link to="/" className="btn"> Back </Link>
       </div>
       <div className="home-content">
         <h3>Air Jordan <span className="multiple-text">1 Mid SE</span></h3>

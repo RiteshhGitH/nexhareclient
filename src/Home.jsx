@@ -10,6 +10,7 @@ import img6 from './images/portfolio6.jpg'
 import './style.css'
 import { ConnectWallet } from "@thirdweb-dev/react";
 import { ThirdwebNftMedia } from "@thirdweb-dev/react";
+import {Link} from "react-router-dom"
 
 
 
@@ -146,7 +147,8 @@ const App = () => {
                 <div class="portfolio-layer">
                     <h4>Jordan 1 OG</h4>
                     <p>Exclusive, collectible footwear showcasing style and sophistication</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    {/* <a href="#"><i class='bx bx-link-external'></i></a> */}
+                    <Link to="/jordan" className="btn"><i class='bx bx-link-external'></i></Link>
                 </div>
         </div>
 
