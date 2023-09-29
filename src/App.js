@@ -49,7 +49,7 @@ const App = () => {
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="https://drive.google.com/file/d/1eKqDvRCu0Tp1FH7d94BTqWFR5RfzNXmd/view?usp=share_link">Whitepaper</a>
+            <a href="https://drive.google.com/file/d/1AhbVUPeSSM-WebxClKgQI1yq2yBm7Pm3/view?usp=share_link">Whitepaper</a>
             <a href="#contact">Contact</a>
             <ConnectWallet
   theme="dark"
@@ -109,24 +109,24 @@ const App = () => {
             <div class="services-box">
                 <i class='bx bxs-home'></i>
                 <h3>Real Estate</h3>
-                <p>Nexhare enables individuals to invest in real estate with small amounts of capital, 
-                    increasing accessibility to this traditionally exclusive asset class.</p>
+                <p>Discover diverse real estate assets listed on our website, featuring properties, land,
+                     and buildings for investment, rental, or ownership opportunities</p>
                 <a href="#" class="btn">Coming Soon !</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxs-car'></i>
                 <h3>Vintage Cars</h3>
-                <p>fractional ownership of luxury items like watches, cars, and jewellery becomes possible, 
-                allowing users to own a share of their dream possessions.</p>
+                <p>Explore our curated collection of vintage cars, showcasing classic automobiles with timeless appeal 
+                    and historical significance for the enthusiasts and collectors</p>
                 <a href="#" class="btn">Coming Soon !</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxs-diamond'></i>
                 <h3>High Valued Jewels</h3>
-                <p>Nexhare facilitates the trading and ownership of art, collectables, 
-                    and rare items, making these markets more inclusive and liquid.</p>
+                <p>Explore our exquisite collection of high-value jewels, featuring stunning gemstones and 
+                    luxury jewelry pieces for our collectors and connoisseurs</p>
                 <a href="#" class="btn">Coming Soon !</a>
             </div>
 
@@ -138,6 +138,16 @@ const App = () => {
         <h2 class="heading">Trending <span>Collection</span></h2>
 
         <div class="portfolio-container">
+
+        <div class="portfolio-box">
+                <img src={img6}  />
+                <div class="portfolio-layer">
+                    <h4>Jordan 1 OG</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+        </div>
+
             <div class="portfolio-box">
                 <img src={img1} />
                 <div class="portfolio-layer">
@@ -183,14 +193,7 @@ const App = () => {
                 </div>
             </div>
 
-            <div class="portfolio-box">
-                <img src={img6}  />
-                <div class="portfolio-layer">
-                    <h4>Jordan 1 OG</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
+            
 
         </div>
     </section>
