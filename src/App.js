@@ -12,7 +12,7 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 import { ThirdwebNftMedia } from "@thirdweb-dev/react";
 
 const App = () => {
-    const { contract: marketplace, isLoading: loadingContract } = useContract(
+const { contract: marketplace, isLoading: loadingContract } = useContract(
         MARKETPLACE_ADDRESS,
         "marketplace-v3"
       );
@@ -117,16 +117,16 @@ const App = () => {
             <div class="services-box">
                 <i class='bx bxs-car'></i>
                 <h3>Vintage Cars</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias impedit consectetur sequi minima
-                    neque ullam, temporibus nostrum reprehenderit aperiam modi?</p>
+                <p>fractional ownership of luxury items like watches, cars, and jewellery becomes possible, 
+                allowing users to own a share of their dream possessions.</p>
                 <a href="#" class="btn">Coming Soon !</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxs-diamond'></i>
                 <h3>High Valued Jewels</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias impedit consectetur sequi minima
-                    neque ullam, temporibus nostrum reprehenderit aperiam modi?</p>
+                <p>Nexhare facilitates the trading and ownership of art, collectables, 
+                    and rare items, making these markets more inclusive and liquid.</p>
                 <a href="#" class="btn">Coming Soon !</a>
             </div>
 
@@ -197,7 +197,7 @@ const App = () => {
 
   
     <section class="contact" id="contact">
-       <Web3Button> <h2 class="heading">Upload Your <span>NFT</span></h2></Web3Button>
+        <h2 class="heading">Upload Your <span>NFT</span></h2>
 
         <form action="#">
             <a href="#" class="button">Choose image file</a>
