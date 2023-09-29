@@ -1,4 +1,4 @@
-import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { ThirdwebProvider, Web3Button } from "@thirdweb-dev/react";
 import home from './images/home.png'
 import about from './images/about.jpg'
 import img1 from './images/portfolio1.jpg'
@@ -12,6 +12,25 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 import { ThirdwebNftMedia } from "@thirdweb-dev/react";
 
 const App = () => {
+    const { contract: marketplace, isLoading: loadingContract } = useContract(
+        MARKETPLACE_ADDRESS,
+        "marketplace-v3"
+      );
+    
+      // 1. Load if the NFT is for direct listing
+      const { data: directListing, isLoading: loadingDirect } =
+        useValidDirectListings(marketplace, {
+          tokenContract: NFT_COLLECTION_ADDRESS,
+          tokenId: nft.metadata.id,
+        });
+    
+      // 2. Load if the NFT is for auction
+      const { data: auctionListing, isLoading: loadingAuction } =
+        useValidEnglishAuctions(marketplace, {
+          tokenContract: NFT_COLLECTION_ADDRESS,
+          tokenId: nft.metadata.id,
+        });
+    
   return (
     <ThirdwebProvider activeChain="ethereum" clientId="4392ac7d521f709079afb64654495f6c">
 
@@ -178,7 +197,7 @@ const App = () => {
 
   
     <section class="contact" id="contact">
-        <h2 class="heading">Upload Your <span>NFT</span></h2>
+       <Web3Button> <h2 class="heading">Upload Your <span>NFT</span></h2></Web3Button>
 
         <form action="#">
             <a href="#" class="button">Choose image file</a>
