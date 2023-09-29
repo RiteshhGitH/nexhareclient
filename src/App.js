@@ -1,7 +1,7 @@
 import "./App.css";
 import {BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./Home"
-import Jordan from "./jordan"
+import Shoes from "./shoes"
 import Tower from "./tower";
 import Car from "./car";
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="Jordan" element={<Jordan/>} />
+        <Route path="Jordan" element={<Shoes/>} />
         <Route path="tower" element={<Tower/>}/>
         <Route path="car" element={<Car/>}/>
 

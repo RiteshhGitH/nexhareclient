@@ -1,14 +1,13 @@
 import React from 'react'
-import img1 from './images/car.jpg'
+import img1 from './images/zen-master.png'
 import {Link} from "react-router-dom"
 import './style.css'
-const car = () => {
-  const backbr = {
-    position: 'absolute',
-    top: '50px',
-    left: '50px',
-  };
-    
+const shoes = () => {
+    const backbr = {
+            position: 'absolute',
+            top: '50px',
+            left: '50px',
+          };
   return (
     <div>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
@@ -20,10 +19,10 @@ const car = () => {
         <Link to="/" className="btn"> Back </Link>
       </div>
       <div className="home-content">
-            <h3>Vintage <span class="multiple-text">Cars</span></h3>
-            <h1>Roadster</h1>
-            <h3><span class="multiple-text">Minting </span>Now</h3>
-            <p>Price: 0.80 ETH Tokens</p>
+        <h3>Air Jordan <span className="multiple-text">1 Mid SE</span></h3>
+        <h1>Zen Master</h1>
+        <h3><span className="multiple-text">Minting </span>Now</h3>
+        <p>Price: 0.18 ETH Tokens</p>
         <br/>
         <br/>
         <a href="#" className="btn">Mint</a>
@@ -53,4 +52,5 @@ const car = () => {
   )
 }
 
-export default car
+export default shoes
+

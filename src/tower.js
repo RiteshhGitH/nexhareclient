@@ -9,6 +9,8 @@ const jordan = () => {
   };
     
   return (
+    <div>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
     <section className="home" id="home">
       <div style={backbr}>
       {/* <a href="#" className="btn">Back</a> */}
@@ -29,6 +31,22 @@ const jordan = () => {
       </div>
 
     </section>
+     <footer class="footer">
+     <div class="footer-text">
+         <p>Cpoyright &copy; 2023 by Nexhare | All Rights Reserved.</p>
+     </div>
+
+     
+     <div class="social-media">
+             <a href="#"><i class='bx bxl-facebook'></i></a>
+             <a href="#"><i class='bx bxl-twitter'></i></a>
+             <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+             <a href="#"><i class='bx bxl-linkedin'></i></a>
+     </div>
+     
+ </footer>
+
+ </div>
   )
 }
 
