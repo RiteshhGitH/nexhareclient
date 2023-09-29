@@ -157,7 +157,7 @@ const App = () => {
                 <div class="portfolio-layer">
                     <h4>NXY Towers</h4>
                     <p>Iconic skyscraper offering premium luxury living in prime location</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <Link to="/tower" className="btn"><i class='bx bx-link-external'></i></Link>
                 </div>
             </div>
 
