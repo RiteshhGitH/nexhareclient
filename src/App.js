@@ -90,8 +90,8 @@ const App = () => {
             <div class="services-box">
                 <i class='bx bxs-home'></i>
                 <h3>Real Estate</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias impedit consectetur sequi minima
-                    neque ullam, temporibus nostrum reprehenderit aperiam modi?</p>
+                <p>Nexhare enables individuals to invest in real estate with small amounts of capital, 
+                    increasing accessibility to this traditionally exclusive asset class.</p>
                 <a href="#" class="btn">Coming Soon !</a>
             </div>
 
