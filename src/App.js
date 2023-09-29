@@ -1,7 +1,7 @@
 import "./App.css";
 import {BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./Home"
-import Jordan from "./Jordan"
+import Jordan from "./jordan"
 const App = () => {
   return (
     <BrowserRouter>
