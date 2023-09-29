@@ -143,7 +143,7 @@ const App = () => {
                 <img src={img6}  />
                 <div class="portfolio-layer">
                     <h4>Jordan 1 OG</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <p>Exclusive, collectible footwear showcasing style and sophistication</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
         </div>
@@ -152,7 +152,7 @@ const App = () => {
                 <img src={img1} />
                 <div class="portfolio-layer">
                     <h4>NXY Towers</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <p>Iconic skyscraper offering premium luxury living in prime location</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -161,7 +161,7 @@ const App = () => {
                 <img src={img2}  />
                 <div class="portfolio-layer">
                     <h4>Vintage Cars</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <p>Rare classic, restored to perfection, for collectors and enthusiasts</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -170,7 +170,7 @@ const App = () => {
                 <img src={img3}  />
                 <div class="portfolio-layer">
                     <h4>Art Sea</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <p>Will be listed soon....</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -179,7 +179,7 @@ const App = () => {
                 <img src={img4}  />
                 <div class="portfolio-layer">
                     <h4>GX Estate</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <p>Will be listed soon....</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -188,7 +188,7 @@ const App = () => {
                 <img src= {img5} />
                 <div class="portfolio-layer">
                     <h4>GM Chime</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, facere!</p>
+                    <p>Will be listed soon....</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
