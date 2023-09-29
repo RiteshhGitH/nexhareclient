@@ -12,24 +12,24 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 import { ThirdwebNftMedia } from "@thirdweb-dev/react";
 
 const App = () => {
-const { contract: marketplace, isLoading: loadingContract } = useContract(
-        MARKETPLACE_ADDRESS,
-        "marketplace-v3"
-      );
+// const { contract: marketplace, isLoading: loadingContract } = useContract(
+//         MARKETPLACE_ADDRESS,
+//         "marketplace-v3"
+//       );
     
-      // 1. Load if the NFT is for direct listing
-      const { data: directListing, isLoading: loadingDirect } =
-        useValidDirectListings(marketplace, {
-          tokenContract: NFT_COLLECTION_ADDRESS,
-          tokenId: nft.metadata.id,
-        });
+//       // 1. Load if the NFT is for direct listing
+//       const { data: directListing, isLoading: loadingDirect } =
+//         useValidDirectListings(marketplace, {
+//           tokenContract: NFT_COLLECTION_ADDRESS,
+//           tokenId: nft.metadata.id,
+//         });
     
-      // 2. Load if the NFT is for auction
-      const { data: auctionListing, isLoading: loadingAuction } =
-        useValidEnglishAuctions(marketplace, {
-          tokenContract: NFT_COLLECTION_ADDRESS,
-          tokenId: nft.metadata.id,
-        });
+//       // 2. Load if the NFT is for auction
+//       const { data: auctionListing, isLoading: loadingAuction } =
+//         useValidEnglishAuctions(marketplace, {
+//           tokenContract: NFT_COLLECTION_ADDRESS,
+//           tokenId: nft.metadata.id,
+//         });
     
   return (
     <ThirdwebProvider activeChain="ethereum" clientId="4392ac7d521f709079afb64654495f6c">
@@ -49,7 +49,7 @@ const { contract: marketplace, isLoading: loadingContract } = useContract(
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#portfolio">Whitepaper</a>
+            <a href="https://drive.google.com/file/d/1eKqDvRCu0Tp1FH7d94BTqWFR5RfzNXmd/view?usp=share_link">Whitepaper</a>
             <a href="#contact">Contact</a>
             <ConnectWallet
   theme="dark"
