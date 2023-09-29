@@ -166,7 +166,7 @@ const App = () => {
                 <div class="portfolio-layer">
                     <h4>Vintage Cars</h4>
                     <p>Rare classic, restored to perfection, for collectors and enthusiasts</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <Link to="/car" className="btn"><i class='bx bx-link-external'></i></Link>
                 </div>
             </div>
 
